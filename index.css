@@ -1,2 +1,5 @@
-ECHO is on.
 /* CSS STYLE COMMENTS HERE */
+p {
+    color: red;
+    text-align: center;
+  }
