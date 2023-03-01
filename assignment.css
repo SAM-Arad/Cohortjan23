@@ -1,0 +1,10 @@
+/*class selector*/
+.section{
+    background-color: aqua;
+    padding: 0%;
+    
+}
+h2 {
+    margin-block-start: 1em;
+    margin-block-end:1em;
+}
