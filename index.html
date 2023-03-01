@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-                      <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <title>Document</title>
-                <meta name="description" content="">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="">
-                <!--internal styles-->
-                <style>
-                    /* Basic css syntax
-                    css selector{
-                        property:value;
-                    }
-                    */
-                    Body{
-                        background-color: brown;
-                    }
-                    main{
-                        background-color: aqua;
-                    }
-           </style>
-            </head>
-            <!--There are 3 main ways to include css styling in html
-                1. Inline styling
-                2. Internal styling
-                3. External styling -->
-            <body>
-                <main style="; height: 100vh;">
-                    <header>
-                         <h4 style="color:#ffffff;">StationMaster</h4>
-                    </header>                 
-                </main>
-                
-    
-            </body>
-        </html>
-    </body>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <main>
+      <header>
+         <h4>Spanz</h4>
+         <button type="button" class="Drop down menu">
+            <span class="hamburger"></span>
+         </button>
+
+         <!-- Navigaion bar below: hidden in mobile view -->
+         <nav class="navbar">
+              <ul class="list">
+               <li class="item"> <a href="" class="link">Home</a></li>
+               <li class="item"> <a href="" class="link">About</a></li>
+               <li class="item"> <a href="" class="link">Service</a></li>
+               <li class="item"> <a href="" class="link">Contact</a></li>
+
+              </ul>
+              <div class="mobile">
+               <a href="#" class="login">Login</a>
+               <a href="#" class="lregister">Sign-up</a>
+
+              </div>
+         </nav>
+              <div class="desktop">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="lregister">Sign-up</a>
+      </header>
+   </main>
+   
+</body>
 </html>
